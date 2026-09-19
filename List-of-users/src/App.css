@@ -1,0 +1,57 @@
+.dashboard { min-height: 100vh; padding: 0 6vw 64px; background: radial-gradient(circle at 85% 0%, #dce7e2 0, transparent 30%), #f5f0e8; }
+.topbar { max-width: 1180px; margin: auto; padding: 24px 0; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #d9d5cc; }
+.brand { display: flex; align-items: center; gap: 10px; color: #202b36; text-decoration: none; font: 700 21px Georgia, serif; }
+.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; color: #f5f0e8; background: #e26d4f; border-radius: 9px; font: 700 12px Arial, sans-serif; }
+.nav-links { display: flex; gap: 28px; font: 600 13px Arial, sans-serif; }
+.nav-links a { color: #6b7477; text-decoration: none; padding: 9px 0; }
+.nav-links .active { color: #202b36; border-bottom: 2px solid #e26d4f; }
+.page-heading { max-width: 1180px; margin: 72px auto 36px; display: flex; align-items: end; justify-content: space-between; gap: 24px; }
+.eyebrow { color: #e26d4f; text-transform: uppercase; letter-spacing: 2px; font: 700 11px Arial, sans-serif; margin: 0 0 14px; }
+h1 { max-width: 650px; margin: 0; color: #202b36; font-size: clamp(42px, 6vw, 76px); line-height: .95; letter-spacing: -2px; font-weight: 400; }
+.subtitle { margin: 18px 0 0; color: #6b7477; font: 15px Arial, sans-serif; }
+.primary-button { color: white; background: #202b36; text-decoration: none; padding: 14px 20px; border-radius: 6px; font: 700 13px Arial, sans-serif; white-space: nowrap; }
+.primary-button:hover { background: #e26d4f; }
+.stats { max-width: 1180px; margin: 0 auto 24px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.stat-card { padding: 20px 22px; background: rgba(255,255,255,.58); border: 1px solid #ded9cf; border-radius: 7px; }
+.stat-card span { display: block; color: #778082; font: 11px Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+.stat-card strong { display: block; margin-top: 10px; color: #202b36; font-size: 28px; font-weight: 400; }
+.accent-stat strong { color: #36806d; }
+.directory-panel { max-width: 1180px; margin: auto; background: #fffdf9; border: 1px solid #ded9cf; border-radius: 8px; overflow: hidden; box-shadow: 0 18px 44px rgba(54, 46, 35, .08); }
+.panel-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 26px 28px; border-bottom: 1px solid #e7e1d8; }
+.panel-heading h2 { margin: 0 0 6px; color: #202b36; font-size: 23px; font-weight: 400; }
+.panel-heading p { margin: 0; color: #899092; font: 13px Arial, sans-serif; }
+.search-box { display: flex; align-items: center; gap: 8px; width: 230px; padding: 10px 12px; color: #899092; background: #f5f0e8; border-radius: 5px; font: 20px Arial, sans-serif; }
+.search-box input { width: 100%; border: 0; outline: 0; color: #202b36; background: transparent; font: 13px Arial, sans-serif; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; font: 13px Arial, sans-serif; }
+th { padding: 14px 28px; color: #899092; background: #faf7f1; text-transform: uppercase; letter-spacing: 1px; font-size: 10px; font-weight: 700; }
+td { padding: 17px 28px; color: #657073; border-top: 1px solid #eee9e1; white-space: nowrap; }
+.person-cell { display: flex; align-items: center; gap: 12px; color: #202b36; }
+.person-cell strong, .person-cell small { display: block; }
+.person-cell strong { font-family: Georgia, serif; font-size: 15px; font-weight: 400; }
+.person-cell small { margin-top: 3px; color: #a2a9a8; font-size: 10px; }
+.avatar { display: grid; place-items: center; width: 34px; height: 34px; color: #36806d; background: #dcebe5; border-radius: 50%; font-weight: 700; }
+.action-heading, .actions { text-align: right; }
+.actions a { margin-left: 16px; color: #e26d4f; text-decoration: none; font-weight: 700; }
+.actions a:first-child { color: #36806d; }
+.actions button { margin-left: 16px; padding: 0; color: #b44f3a; border: 0; background: transparent; cursor: pointer; font: inherit; font-weight: 700; }
+.message { padding: 38px 28px; color: #778082; font: 14px Arial, sans-serif; }
+.error-message { color: #b44f3a; }
+.form-page { min-height: 100vh; padding: 42px 6vw 64px; background: radial-gradient(circle at 85% 0%, #dce7e2 0, transparent 30%), #f5f0e8; }
+.back-link { display: block; max-width: 600px; margin: 0 auto 38px; color: #36806d; text-decoration: none; font: 700 13px Arial, sans-serif; }
+.form-panel { max-width: 600px; margin: auto; padding: 42px; background: #fffdf9; border: 1px solid #ded9cf; border-radius: 8px; box-shadow: 0 18px 44px rgba(54, 46, 35, .08); }
+.form-panel h1 { font-size: 52px; }
+.form-panel form { display: grid; gap: 18px; margin-top: 34px; }
+.form-panel label { display: grid; gap: 8px; color: #657073; font: 700 11px Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+.form-panel input { width: 100%; padding: 13px 14px; color: #202b36; border: 1px solid #d9d5cc; border-radius: 5px; outline: 0; background: #faf7f1; font: 15px Arial, sans-serif; }
+.form-panel input:focus { border-color: #36806d; box-shadow: 0 0 0 3px rgba(54, 128, 109, .12); }
+.form-panel .primary-button { border: 0; cursor: pointer; justify-self: start; }
+.form-error { margin: 0; color: #b44f3a; font: 13px Arial, sans-serif; }
+.profile-panel { text-align: center; }
+.large-avatar { display: grid; place-items: center; width: 76px; height: 76px; margin: 0 auto 20px; color: #36806d; background: #dcebe5; border-radius: 50%; font-size: 32px; }
+.profile-panel h1 { margin: auto; font-size: 48px; }
+.profile-panel dl { margin: 34px 0; text-align: left; border-top: 1px solid #e7e1d8; }
+.profile-panel dl div { display: flex; justify-content: space-between; gap: 18px; padding: 16px 0; border-bottom: 1px solid #e7e1d8; }
+.profile-panel dt { color: #899092; font: 700 10px Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+.profile-panel dd { margin: 0; color: #202b36; font: 14px Arial, sans-serif; }
+@media (max-width: 700px) { .dashboard { padding: 0 18px 40px; } .page-heading { align-items: start; flex-direction: column; margin-top: 50px; } .stats { grid-template-columns: 1fr; } .panel-heading { align-items: stretch; flex-direction: column; } .search-box { width: 100%; } .topbar { padding: 18px 0; } .nav-links { gap: 16px; } th, td { padding: 13px 16px; } }
